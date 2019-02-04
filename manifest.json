@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "Fullscreen for Youtube TV",
+    "version": "0.0.1",
+  
+    "description": "Hides address bar when watching Youtube in Firefox on Android",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/tv*"],
+        "js": ["content.js"]
+      }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "fullscreen-youtube-tv@tberghuis.github.io"
+        }
+      },
+      "web_accessible_resources": [
+        "fullscreen-icon.png"
+      ]
+
+  }
