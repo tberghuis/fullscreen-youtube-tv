@@ -4,7 +4,7 @@
     "name": "Fullscreen for Youtube TV",
     "version": "0.0.1",
   
-    "description": "Hides address bar when watching Youtube in Firefox on Android",
+    "description": "Hides address bar when watching Youtube TV in Firefox on Android",
   
     "content_scripts": [
       {
